@@ -47,3 +47,12 @@ mg/L: milligram per litre
 
 ## App URL
 https://water-potability-checker.herokuapp.com/
+
+## Docker Image
+This project is automatically built and published to Docker Hub.
+You can pull and run the image using:
+```bash
+docker pull mugundhan2905/predict-water-potability:latest
+docker run -p 5000:5000 mugundhan2905/predict-water-potability:latest
+```
+[View on Docker Hub](https://hub.docker.com/r/mugundhan2905/predict-water-potability)
